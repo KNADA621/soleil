@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soleil </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+     
+<header id="home">
+     <div class="navbar" >
+         <div class="navbar-menu">
+             <div class="navbar-logo">
+                 <img src="images/logo.jpg" alt="Logo" width="80px" height="35px">
+             </div>
+             
+             <div class="link" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home" data-key="home">الرئيسية</a></li>
+                    <li><a href="#about" data-key="about">من نحن</a></li>
+                    <li><a href="#services" data-key="Services">خدماتنا</a></li>  
+                    <li><a href="#games" data-key="Games">الألعاب</a></li>
+                    <li><a href="#contact" data-key="contact">تواصل معنا</a></li>
+                </ul>
+             </div>
+             
+             <div class="nav-btns">
+                 <div class="btn"> <button id="lang-btn">English</button></div>
+                 <i class="fa-solid fa-bars" onclick="showMenu()"></i> 
+             </div>
+         </div>
+
+         <div class="title" id="mainTitle"> 
+             <h1 data-key="title">الانجازات الكبيرة تبدأ بألعاب صغيرة</h1>
+             <p data-key="sub">تمكين الأطفال ذوي التوحد على تعزيز مهاراتهم اليوميه والتواصل والسلوك</p>
+         </div>
+     </div> 
+</header>
+        <section class="about" id="about">
+              <div class="aboutt" data-aos="fade-right" data-aos-duration="1000">
+                  <h1 data-key="habout">من نحن؟</h1>
+                  <p data-key="pabout">عائلتكم الثانية في رحلة التطور والتمكين. <br>في soleil،نؤمن أن كل طفل لديه عالم خاص مليء بالامكانيات. نحن منصة متخصصة تهدف الى دعم ااطفال ذوي التوحدمن خلال دمج العلم باللعب، نحول التحديات اليومية الى انجازات ملموسة</p>
+              </div>
+              <div class="row">
+                  <div class="mission" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <h1 data-key="hmission">مهمتنا</h1>
+                    <p data-key="pmission">نحن هنا لندعم العائلات بأدوات مبتكرة، قائمة على اللعب والتحفيز الإيجابي، لتمكين الأطفال من تطوير مهاراتهم اليومية، التواصلية، والسلوكية في بيئة تفاعلية آمنة وممتعة.</p>
+                  </div>
+                  <div class="img-mission" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="400">
+                      <img src="images/our mission.jpeg" alt="" width="220px" height="220px">
+                  </div>
+              </div>
+               <div class="row-re">
+                 <div class="mission" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                     <h1 data-key="hvision">رؤيتنا</h1>
+                     <p data-key="pvision">
+​أن نكون المرجع الأول لكل أم وأب يبحثون عن فهم أعمق لأطفالهم، وتوفير بيئة رقمية تضمن للطفل نمواً مستداماً يجعله فخوراً بنفسه، وفردًا فاعلاً في مجتمعه.</p>            
+                 </div>                
+                  <div class="img-mission" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="400">
+
+                        <img src="images/our vision.jpeg" alt="" width="220px" height="220px">
+                 </div>
+               </div>
+
+
+        </section>
+        <!--serves-->
+        <section class="services-section" id="services">
+    <h2 class="section-title" data-key="Services">خدماتنا</h2>
+    
+    <div class="services-container">
+        <div class="service-card ai-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" > 
+            <div class="service-icon"><img src="images/ai.png" alt="" width="70px"></div>
+             <h3 data-key="hai">  التشخيص الذكي والاكتشاف المبكر</h3>
+            <p data-key="pai">
+نستخدم تقنيات الذكاء الاصطناعي المتقدمة لتحليل أنماط سلوك الطفل وتفاعله في مراحل مبكرة، مما يساعدنا على تحديد سمات التوحد بدقة عالية وتوجيه الأهل نحو الخطوات الصحيحة فوراً.
+            </p>
+        </div>
+
+        <div class="service-card games-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <div class="service-icon"><img src="images/games.jpeg" alt="" width="70px"> </div>
+            <h3 data-key="hga">الألعاب التفاعلية الذكية </h3>
+            <p data-key="pga">
+صممنا مجموعة من الألعاب التعليمية التي تستهدف مهارات التركيز، حل المشكلات، والتآزر البصري الحركي، لتكون عملية التعلم ممتعة وغير مجهدة للطفل                
+            </p>
+        </div>
+
+        <div class="service-card comm-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+            <div class="service-icon"><img src="images/skills.jpeg" alt="" width="70px">
+
+            </div>
+            <h3 data-key="hskill">تطوير مهارات التواصل </h3>
+            <p data-key="pskill">
+نساعد الأطفال على التعبير عن احتياجاتهم وفهم الإشارات الاجتماعية من خلال تمارين تفاعلية تعزز النطق والتواصل غير اللفظي.            </p>
+        </div>
+
+        <div class="service-card analysis-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <div class="service-icon"><img src="images/analyez.png" alt="" width="70px"></div>
+            <h3 data-key="hana"> تقييم وتحليل الأداء</h3>
+<p data-key="pana">نوفر تقارير دورية للأهل توضح مدى تقدم الطفل في كل مهارة، مع تقديم نصائح مخصصة لكيفية التعامل مع التحديات اليومية</p>                
+
+            
+        </div>
+
+        <div class="service-card safety-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <div class="service-icon"><img src="images/eyes.jpeg" alt="" width="70px"></div>
+            <h3 data-key="heye">بيئة آمنة وخالية من المشتتات </h3>
+            <p data-key="peye">منصتنا مصممة هندسياً بصرياً لتقليل المشتتات الحسية، مما يضمن للطفل أقصى درجات التركيز والراحة أثناء الاستخدام
+            </p>
+        </div>
+        <div class="service-card path-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+    <div class="service-icon"><img src="images/path.png" alt="" width="70px"></div> 
+    <h3 data-key="hpath">التدريب على المهارات الحياتية</h3>    <p data-key="ppath">عليم الطفل مهارات يومية (مثل غسل اليدين， ترتيب الغرفة， التعامل مع الوقت) من خلال ألعاب تفاعلية ومحاكاة بسيطة تساعده على الاعتماد على نفسه.</p>
+</div>
+    </div>
+</section>
+
+<section class="games-section" id="games">
+    <h2 class="section-title" data-key="hgms">استكشف عالم ألعاب soleil</h2>
+    <div class="games-container">
+        
+        <div class="game-card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">
+            <div class="video-wrapper">
+                <video muted loop onmouseover="this.play()" onmouseout="this.pause()">
+                    <source src="video/game1.mp4" type="video/mp4">
+                </video>
+                
+            </div>
+            <div class="game-info">
+                <h3 data-key="hsaed">صائد المشاعر المتطابقة</h3>
+                <p data-key="psaed">لعبة ممتعة تساعد الطفل على التمييز بين المشاعر المختلفه وتزيد من سرعة الانتباه.</p>
+                
+            </div>
+        </div>
+
+        <div class="game-card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+            <div class="video-wrapper">
+                <video muted loop onmouseover="this.play()" onmouseout="this.pause()">
+                    <source src="video/game3.mp4" type="video/mp4">
+                </video>
+                
+            </div>
+            <div class="game-info">
+                <h3 data-key="hday">مغامرة الترتيب اليومي</h3>
+                <p data-key="pday">محاكاة ذكية تعلم الطفل خطوات وترتيب غرفته بأسلوب القصص التفاعلية.</p>
+    
+            </div>
+        </div>
+
+        <div class="game-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+            <div class="video-wrapper">
+                <video muted loop onmouseover="this.play()" onmouseout="this.pause()">
+                    <source src="video/game2.mp4" type="video/mp4">
+                </video>
+                
+            </div>
+            <div class="game-info">
+                <h3 data-key="hrdd">سولي للتواصل</h3>
+                <p data-key="prdd">مصممة لمساعدة الأطفال ذوي اضطراب طيف التوحد على تحسين مهارات التواصل والتفاعل الاجتماعي من خلال أنشطة تفاعلية تحاكي الحياة اليومية في بيئة افتراضية آمنة وجذابة."</p>
+               
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="faq-container">
+    <h2 class="faq-title" data-key="qs">اسئله بتدور في بالك</h2>
+    
+    <div class="faq-list">
+        <details class="faq-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <summary data-key="qsg" >هل الألعاب دي بتغني عن جلسات التخاطب أو الأخصائي؟</summary>
+            <div class="faq-content">
+                <p data-key="asg">soleil هو مساعد تقني بيكمل دور الأخصائي مش بيستبدله. إحنا بنوفر بيئة تدريب يومية في البيت عشان نسرّع عملية التطور بين الجلسات.</p>
+            </div>
+        </details>
+
+        <details class="faq-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <summary data-key="qai">إزاي الذكاء الاصطناعي بيعرف حالة ابني؟</summary>
+            <div class="faq-content">
+                <p data-key="aai">من خلال تحليل استجابة الطفل للألعاب التفاعلية، حركات عينيه، وسرعة رد فعله، بنقدر نحدد نقاط القوة والضعف ونوجهكم للتمارين الأنسب لحالته.</p>
+            </div>
+        </details>
+
+        <details class="faq-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+            <summary data-key="qkid">هل استخدام الشاشات غلط على طفلي؟</summary>
+            <div class="faq-content">
+                <p data-key="akid">إحنا صممنا ألعابنا بـ "وقت محدد" وإضاءة مريحة للعين، والهدف مش مجرد فرجة، الهدف هو "تفاعل" حركي وذهني بيخدم الخطة العلاجية.</p>
+            </div>
+        </details>
+
+        <details class="faq-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <summary data-key="qsaf">هل بيانات طفلي وفيديوهاته في أمان؟</summary>
+            <div class="faq-content">
+                <p data-key="asaf">الخصوصية عندنا رقم 1. كل البيانات مشفرة بالكامل ولا يتم مشاركتها مع أي جهة، وليكِ كامل التحكم في مسح أي بيانات في أي وقت.</p>
+            </div>
+        </details>
+
+        <details class="faq-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <summary data-key="qage">إيه هو السن المناسب لاستخدام soleil؟</summary>
+            <div class="faq-content">
+                <p data-key="aage">مشروعنا مصمم للأطفال من سن 3 سنوات وحتى 12 سنة، مع محتوى بيتغير تلقائياً عشان يناسب الفئة العمرية لكل طفل.</p>
+            </div>
+        </details>
+    </div>
+</section>
+<footer class="main-footer" id="contact">
+    <div class="footer-container">
+        <div class="footer-about">
+            <h2 class="footer-logo">Soleil<span>.</span></h2>
+            <p data-key="foot">منصة ذكية تهدف لدعم نمو طفلكم من خلال اللعب التفاعلي والذكاء الاصطناعي، لنبني معاً مستقبلاً مليئاً بالإنجازات.</p>
+        </div>
+
+        <div class="footer-links">
+            <h3 data-key="lin">روابط سريعة</h3>
+            <ul>
+                <li><a href="#home" data-key="home">الرئيسية</a></li>
+                <li><a href="#services" data-key="Services">خدماتنا</a></li>
+                <li><a href="#games" data-key="Games">ألعابنا</a></li>
+                <li><a href="#contact" data-key="contact">تواصل معنا</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-social">
+            <h3 data-key="foll">تابعونا</h3>
+            <div class="social-icons">
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Instagram</a>
+                <a href="#" class="social-icon">Twitter</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p data-key="cop">جميع الحقوق محفوظة لمشروع soleil &copy; 2026</p>
+    </div>
+</footer>
+    
+<script src="solie.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- 1. سكريبت مكتبة AOS الأساسية (لازم يكون الأول) -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- 2. ملف الجافا سكريبت بتاعك اللي صلحنا اسمه (solie.js) -->
+    <script src="solie.js"></script>
+
+    <!-- 3. كود تشغيل الأنيميشن الجديد (حطيه تحتهم كلهم) -->
+    <script>
+      AOS.init({
+        once: false,   /* يشتغل وأنتِ طالعة ونازلة */
+        mirror: true,  /* يختفي ويظهر بنعومة مع السكرول */
+        offset: 200,
+        duration: 800,
+        easing: 'ease-in-out'
+      });
+    </script>
+
+
+
+</body>
+</html>
