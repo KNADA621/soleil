@@ -610,7 +610,5 @@ summary::before {
 :root {
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
-  /* أي أكواد هنا بتغير الألوان للغوامق لازم تتشال */
-}
+
 
