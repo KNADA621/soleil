@@ -167,6 +167,11 @@ html, body {
      color: #333;
      
 }
+@media (max-width: 700px) {
+    .about{
+        height: 155vh;
+    }
+}
 .row{
     margin-top: 50px;
     display: flex;
@@ -517,7 +522,7 @@ summary::before {
 }
 .main-footer {
     background-color: #306EA7;
-    border-radius: 300px 100px 0  0;
+    border-radius: 180px 100px 0  0;
     color: white;
     padding: 60px 20px 20px;
     direction: rtl;
@@ -601,5 +606,11 @@ summary::before {
     padding-top: 20px;
     font-size: 12px;
     color: #a0aec0;
+}
+:root {
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  /* أي أكواد هنا بتغير الألوان للغوامق لازم تتشال */
 }
 
